@@ -4,6 +4,7 @@
         <TargetFramework>netstandard2.0</TargetFramework>
         <LangVersion>10.0</LangVersion>
         <Nullable>enable</Nullable>
+		<VersionPrefix>0.0.1</VersionPrefix>
 
         <!-- Package stuff -->
         <PackageLicenseFile>LICENSE</PackageLicenseFile>
