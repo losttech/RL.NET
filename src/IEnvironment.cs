@@ -2,7 +2,7 @@
 
 [PublicAPI]
 public interface IEnvironment<TObservation, in TAction, TReward,
-    out TActionSpace, out TObservationSpace>
+    out TObservationSpace, out TActionSpace>
     where TActionSpace : ISpace<TAction>
     where TObservationSpace : ISpace<TObservation> {
     TActionSpace ActionSpace { get; }
